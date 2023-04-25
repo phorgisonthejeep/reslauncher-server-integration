@@ -1,5 +1,5 @@
 server_name: 'EaglercraftXBungee Server'
-server_uuid: 85284b1b-0fcc-48f6-af75-d02360f59775
+server_uuid: 734e1b1c-6626-4a3d-b323-aa1bb2b3b3b4
 websocket_connection_timeout: 15000
 websocket_handshake_timeout: 5000
 http_websocket_compression_level: 6
