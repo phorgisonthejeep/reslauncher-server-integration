@@ -1,18 +1,17 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: '&1Another Bungee server'
+  motd: among us
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
-  forced_hosts:
-    pvp.md-5.net: pvp
+  forced_hosts: {}
   ping_passthrough: false
   priorities:
-  - lobby
+  - server
   bind_local_address: false
   host: 127.0.0.1:25577
-  max_players: 1
+  max_players: -1
   tab_size: 60
   force_default_server: true
 remote_ping_cache: -1
@@ -31,19 +30,19 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
+stats: d3f61d55-3fea-4363-b7be-10ca180ec77d
 player_limit: -1
-prevent_proxy_connections: false
-ip_forward: true
+ip_forward: false
 groups: {}
 remote_ping_timeout: 5000
-connection_throttle: 4000
+connection_throttle: 0
 log_commands: false
+prevent_proxy_connections: false
 online_mode: false
 forge_support: true
-disabled_commands:
-- disabledcommandhere
+disabled_commands: []
 servers:
-  lobby:
-    motd: '&1Just another Waterfall - Forced Host'
+  server:
+    motd: among us
     address: localhost:25565
     restricted: false

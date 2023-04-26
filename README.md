@@ -1,87 +1,81 @@
-# EaglercraftX Replit Archive
+##### written with ❤️ by [ayunami2000](https://github.com/ayunami2000)
+# eaglercraft
 
+Combines 1.5 and 1.8 Eaglercraft servers together!
 
-Hi everyone!
+## how is it back?
+#### The difference is, this replit removes the client itself, so NO DMCA IS POSSIBLE!! This is now a server-only hosting solution, NOT a client hosting solution. DO NOT upload the client to your Replit; it will break their rules. Honestly, have some respect for Mojang. It's literally always said "Do not distribute!" so like, cmon, be reasonable and don't put the client on your replit. Thanks.
 
-First, please go buy Minecraft.
+## looking for the client?
+well, look elsewhere buddy, because you're not gonna find it here.
 
+### Server supports most if not all Bukkit/Spigot 1.8 plugins. Here are a few to get you started:
+- [AuthMeReloaded](https://github.com/AuthMe/AuthMeReloaded/releases) (Set max reg per ip in the config to a very large number, and turn off listing other accounts)
+- [LuckPerms](https://luckperms.net/download) (Permissions manager with an AWESOME web ui)
+- [EssentialsX](https://essentialsx.net/downloads.html) (Since replit projects are usually public, please do not use EssentialsXDiscord, unless you *want* your bot token to get stolen)
+- [WorldEdit](https://dev.bukkit.org/projects/worldedit/files/2460562) (World manipulation plugin, very cool)
+- [AsyncWorldEdit](https://github.com/SBPrime/AsyncWorldEdit/releases/tag/v3.5.4) (requires WorldEdit) (Makes Worldedit faster)
 
----
-
-
-Ok, done? Now we can proceed...
-
-This repository contains a slimmed-down archive of the eaglercraftx (1.8) replit project. It is missing a few things; namely:
-- eula.txt and server jar deleted from server folder
-- selsrv.sh exits early, because:
-- misc folder removed due to containing jars that I cannot with 100% certainty distribute
-
-This repository **DOES NOT** contain ANYTHING that can be reasonably DMCA'd.
-
-
----
-
-## original readme:
-
----
-
-# EaglercraftX
-
-
-#### smashed together by [ayunami2000](https://github.com/ayunami2000)
-##### and [EaglercraftX](https://gitlab.com/lax1dude/eaglercraftx-1.8) developed by [lax1dude](https://github.com/lax1dude)
-
-## How do I use this?
-Basically, fork it, and then press the big Run button on Replit, and it will run your very own EaglercraftX (Eaglercraft 1.8) server!
-
-## What is it doing?
-It is probably compiling the latest, updated client for you. This may take a while (~15 minutes, maybe more)
-
-## How do I switch between consoles? / Console help
-Simply click on the console you want to type in. Alternatively, press `CTRL+B`, release, then press `;`.
-
-To jump back to the bottom after scrolling, press `q`.
-
-To select text for copying, hold shift, and then click and drag.
-
-## How do I customize the server name?
-Go into the `web/` folder and click on the [eaglercraft_opts.js](web/eaglercraft_opts.js) file. Everything from default language, to default servers (and names!), to website title and icon, to default server to join on page load; can all be customized in this file.
-
-## How do I make custom textures?
-With our new-and-improved **EagTek:tm:** 2.0 technology, you can now use vanilla 1.8 resource packs in your client. *(Alternatively, to change the default textures, and without using server resource packs (which also work :D), you can still customize the .epk file using my [web-based tool](https://ayunami2000.github.io/ayunWebEPK))*
-
-## How do I keep people from logging in as me?
-Use a plugin like [AuthMeReloaded](https://github.com/AuthMe/AuthMeReloaded/releases) to secure your and your player's accounts. **Note: For this to be usable, you must set `maxRegPerIp` to `0`.**
-
-## Where can I find plugins?
-- [Spigot Plugins](https://www.spigotmc.org/resources/categories/spigot.4/)
-- [Bukkit Plugins](https://dev.bukkit.org/bukkit-plugins)
-- [Cuberite Plugins](https://plugins.cuberite.org)
-
-## How do I change server software?
-Included is a convenient little script that allows you to switch server software. Simply go to the **Shell** tab and type `./selsrv.sh`. Then, select one of the server software choices, and it will be applied! **NOTICE: Ensure you have stopped your server before running this script.**
-
-## I'm having another issue.
-Join the community-powered [Eaglercraft subreddit](https://www.reddit.com/r/eaglercraft/) to report it! **Be sure to read through other posts to see if it has already been reported, and, rather than reposting it, upvote the other post instead!**
-
-## Can I DM you?
-No.
-
-## Where is singleplayer?
-Don't get your hopes up; it's probably not gonna happen.
-
-## Mods?
-Do it yourself; they will not be provided.
-
-## Can you join my server?
-No.
-
-## *Did* you join my server?
-Probably not, it was probably someone pretending to be me.
-
-## What if I don't want the client, and only the server?
-Someone else will make that I'm sure. You can also go put it on the subreddit and if it gets enough upvotes I'll make an official one.
+### Obligatory server plugs
+- **[TotalFreedom](https://totalfreedom.me)** - Free OP server since 2010 (NOT Eaglercraft compatible) **GRIEF=BAN** IP: `play.totalfreedom.me`
+- **Creacraft/Creayun** - My creative anarchy server, inspired by Creacraft Free OP from back in the day. **WARNING: NO FILTERS, ONLY RULE IS DON'T BE A CREEP** (Eaglercraft compatible) IP: `sus.shhnowisnottheti.me`
+- **[Kaboom.pw](https://kaboom.pw)** - The most "free op" you can get. (NOT Eaglercraft compatible) IP: `play.kaboom.pw`
+- **[Server List](https://eaglercraft-server-list.ayunami2000.repl.co)** - An Eaglercraft server list!
 
 ---
 
-This amazing cool and very awesome Replit was created by yours truly **ayunami2000**. You can find me over on [GitHub](https://github.com/ayunami2000) or on my [website](https://ayunami2000.github.io).
+#### ChatGPT helped me make a tutorial:
+
+### What is Eaglercraft?
+Eaglercraft is a Minecraft clone that is designed to run in the browser. It's a fun place to play Minecraft with friends, and it's a great way to pass the time.
+
+### Why create a server for Eaglercraft?
+Creating a server for Eaglercraft will allow you to play Minecraft with your friends and other Eaglercraft players, even if you can't all be in the same room. You can customize your server and add plugins to make your gameplay more fun and interesting.
+
+### How to set up an Eaglercraft server on Replit:
+#### Step 1: Create a Replit account
+
+If you haven't already, go to [replit.com](https://replit.com) and create an account. It's free and easy!
+
+#### Step 2: Fork the base Replit project
+
+Once you're logged in, go to the [base Replit project](https://replit.com/@ayunami2000/eaglercraft) and click the "Fork" button to create a new project.
+
+#### Step 3: Install and configure AuthMeReloaded
+
+AuthMeReloaded is a plugin that allows players to authenticate their accounts and ignore IP address limits. To install and configure it, follow these steps:
+- Download AuthMeReloaded from [this link](https://github.com/AuthMe/AuthMeReloaded/releases/download/5.6.0-beta2/AuthMe-5.6.0-beta2.jar) and place it inside of the `server/plugins` folder. Then, restart your server.
+- Go to the plugin's config.yml file, located at `server/plugins/AuthMe/config.yml`.
+- Find "maxRegPerIp" and change the number to 0.
+- Find "displayOtherAccounts" and set it to false.
+
+#### Step 4: Install PlugmanX
+
+PlugmanX is a plugin that allows you to easily load, unload, and reload plugins. To install it, follow these steps:
+- Download PlugmanX from [this link](https://www.spigotmc.org/resources/plugmanx.88135/) and place it inside of the `server/plugins` folder. Then, restart your server.
+- From now on, you will be able to load most new plugins by using the command `plugman load <plugin file name>` in the server console or in-game after permissions are set up without having to restart your server! You will also be able to reload plugins by running the command `plugman reload <plugin name>`.
+
+#### Step 5: Install LuckPerms
+
+LuckPerms is a plugin that manages permissions. To install it, follow these steps:
+- Download LuckPerms from [this link](https://luckperms.net/download) (choose “Bukkit”) and place it inside of the `server/plugins` folder. Then, load the plugin.
+- Once it's installed, run the command `lp user <your username> permission set luckperms.* true` in the server console, and then use the web-based editor to configure permissions by running `/lp editor` in-game.
+
+#### Step 6: Install EssentialsX
+
+EssentialsX is a plugin that adds useful commands and chat formatting. To install it, follow these steps:
+- Download EssentialsX and EssentialsXChat from [this link](https://essentialsx.net/downloads.html), and Vault from [this link](https://dev.bukkit.org/projects/vault/files/894359), and place them inside of the `server/plugins` folder. Then, load the plugins.
+
+#### Step 7: Install WorldEdit
+
+WorldEdit is a plugin that makes block editing easier. To install it, follow these steps:
+- Download WorldEdit from [this link](https://dev.bukkit.org/projects/worldedit/files/2460562) and place it inside of the `server/plugins` folder. Then, load the plugins.
+
+**That's it!** You now have a working Eaglercraft server on Replit. However, please note that due to the limited memory and power of Replit containers, the server will most likely run slow, crash, and not run 24/7.
+
+If you run into any issues during the setup process, don't worry! Here are some common troubleshooting tips:
+- Make sure you're following each step carefully and in order.
+- Double-check that you've installed and configured each plugin correctly.
+- If the server is running slow or crashing, try reducing the number of players or removing some plugins to free up memory.
+
+Remember, creating an Eaglercraft server is supposed to be fun! Don't be afraid to experiment and try new things. Good luck, and have fun!
