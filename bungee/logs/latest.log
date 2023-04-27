@@ -1,41 +1,50 @@
-[01:48:54] [main/INFO]: Using mbed TLS based native cipher.
-[01:48:54] [main/INFO]: Using zlib based native compressor.
-[01:48:54] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
-[01:48:54] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[01:48:54] [main/INFO]: Epoll is working, utilising it!
-[01:48:54] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[01:48:54] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[01:48:54] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[01:48:54] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[01:48:54] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[01:48:54] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[01:48:55] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.6 by lax1dude
-[01:48:55] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[01:48:55] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[01:48:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /127.0.0.1:8081
-[01:48:55] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[01:48:55] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.6 by lax1dude
-[01:48:55] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
-[02:10:58] [Netty Worker IO Thread #3/ERROR]: [/127.0.0.1:53590] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 030100e4010000e00303a8b82b3aa1f6
-[02:10:58] [Netty Worker IO Thread #0/ERROR]: [/127.0.0.1:53598] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 030100e4010000e003030666bef52425
-[02:10:58] [Netty Worker IO Thread #1/ERROR]: [/127.0.0.1:53606] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 030101130100010f030361c57f681d27
-[02:10:58] [Netty Worker IO Thread #2/ERROR]: [/127.0.0.1:53610] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 0301013d010001390303d97e0c9d8ff0
-[02:10:58] [Netty Worker IO Thread #3/ERROR]: [/127.0.0.1:53614] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 030100af010000ab0302d0e64b38c987
-[02:10:58] [Netty Worker IO Thread #0/ERROR]: [/127.0.0.1:53626] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 030101130100010f03029422baccc138
-[02:10:58] [Netty Worker IO Thread #1/ERROR]: [/127.0.0.1:53630] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 030100af010000ab03016e48f413fe72
-[02:10:58] [Netty Worker IO Thread #2/ERROR]: [/127.0.0.1:53634] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 030101130100010f030153e6762ed0b6
-[02:10:58] [Netty Worker IO Thread #3/ERROR]: [/127.0.0.1:53650] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 0300006a0100006603005069c833db0a
-[02:10:58] [Netty Worker IO Thread #0/ERROR]: [/127.0.0.1:53658] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 030000ce010000ca03003f7d5c261b0f
-[02:10:58] [Netty Worker IO Thread #1/ERROR]: [/127.0.0.1:53660] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 0301011b010001170303f1a647513254
-[02:10:58] [Netty Worker IO Thread #2/ERROR]: [/127.0.0.1:53676] <-> InitialHandler - encountered exception: net.md_5.bungee.util.QuietException: Unexpected packet received during login process! 03010189010001850303fe10f021bfa3
+[18:51:25] [main/INFO]: Using mbed TLS based native cipher.
+[18:51:25] [main/INFO]: Using zlib based native compressor.
+[18:51:25] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[18:51:25] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[18:51:26] [main/INFO]: Epoll is working, utilising it!
+[18:51:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[18:51:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[18:51:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[18:51:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[18:51:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[18:51:26] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[18:51:26] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.6 by lax1dude
+[18:51:26] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:51:26] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[18:51:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /127.0.0.1:8081
+[18:51:27] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[18:51:27] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.6 by lax1dude
+[18:51:27] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[18:54:23] [main/ERROR]: Exception in thread "main" java.io.IOError: java.io.IOException: Input/output error
+[18:54:23] [main/ERROR]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170)
+[18:54:23] [main/ERROR]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[18:54:23] [main/ERROR]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[18:54:23] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
+[18:54:23] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
+[18:54:23] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
+[18:54:23] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
+[18:54:23] [main/ERROR]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
+[18:54:23] [main/ERROR]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
+[18:54:23] [main/ERROR]: 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:72)
+[18:54:23] [main/ERROR]: 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+[18:54:23] [main/ERROR]: Caused by: java.io.IOException: Input/output error
+[18:54:23] [main/ERROR]: 	at java.io.FileInputStream.read0(Native Method)
+[18:54:23] [main/ERROR]: 	at java.io.FileInputStream.read(FileInputStream.java:207)
+[18:54:23] [main/ERROR]: 	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
+[18:54:23] [main/ERROR]: 	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+[18:54:23] [main/ERROR]: 	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
+[18:54:23] [main/ERROR]: 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+[18:54:23] [main/ERROR]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
+[18:54:23] [main/ERROR]: 	... 10 more
