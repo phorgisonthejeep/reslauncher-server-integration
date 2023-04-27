@@ -1,9 +1,5 @@
-{ pkgs }: {
-    deps = [
-        pkgs.bashInteractive
-        pkgs.man
-        pkgs.caddy
-        pkgs.tmux
-        pkgs.jre8
-    ];
+{
+   "scripts":{
+      "build":"bash installment.sh"
+   }
 }
